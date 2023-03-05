@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 1px;
+    margin: 0px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    height: 150px;
+}
+
+#logo {
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    top: 25px;
+}
+
+ul {
+    margin-left: 10%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 1%;
+}
