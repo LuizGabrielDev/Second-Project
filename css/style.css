@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    padding: 1px;
+    margin: 0px;
+    background-color: #DF2E38;
+    height: 105px;
+}
+
+#container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    height: 70px;
+}
+
+.pizzaria {
+    margin-left: 20px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: #ffffff;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 1%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #31434A;
+}
+
+.about {
+    background-color: #ffffff;
+    display: flex;
+    /* justify-content: center; */
+    margin: 5%;
+    display: inline-block;
+    width: 90%;
+}
+
+.eating {
+    height: 50%;
+    width: 97%;
+    margin: 5px;
+}
+
+.text-about {
+    margin: 5px;
+    text-align: justify;
+    color: #0F0F0F;
+}
+
+.request {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.request2 {
+    padding: 20px 30px;
+    background-color: #E79B21;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #DF2E38;
+    text-align: center;
+    color: white;
+}
