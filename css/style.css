@@ -97,6 +97,10 @@
         color: white;
     }
 
+    a:hover {
+        color: #DF2E38;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -199,6 +203,11 @@
         display: flex;
         justify-content: center;
     }
+
+    a:hover {
+        color: #DF2E38;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -306,6 +315,11 @@
         display: flex;
         justify-content: center;
     }
+
+    a:hover {
+        color: #DF2E38;
+    }
+
 }
 
 @media (min-width: 1025px) and (max-width: 1499px) {
@@ -430,6 +444,11 @@
         display: flex;
         justify-content: center;
     }
+
+    a:hover {
+        color: #DF2E38;
+    }
+
 }
 
 @media (min-width: 1500px) {
@@ -554,4 +573,9 @@
         display: flex;
         justify-content: center;
     }
+
+    a:hover {
+        color: #DF2E38;
+    }
+
 }
