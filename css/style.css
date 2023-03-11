@@ -104,7 +104,6 @@
         margin: 0;
         background-color: #F2F2F2;
         font-family: 'Roboto', sans-serif;
-
     }
 
     header {
@@ -309,7 +308,7 @@
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1499px) {
     body {
         margin: 0;
         background-color: #F2F2F2;
@@ -361,7 +360,7 @@
     }
 
     #salgadodoce {
-        height: 290px;
+        height: 310px;
     }
 
     #about {
@@ -424,7 +423,131 @@
     }
 
     .form {
-        width: 65%;
+        width: 40%;
+    }
+
+    .map {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1500px) {
+    body {
+        margin: 0;
+        background-color: #F2F2F2;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    header {
+        padding: 1px;
+        margin: 0px;
+        background-color: #DF2E38;
+        height: 105px;
+    }
+
+    #container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo {
+        height: 70px;
+    }
+
+    .pizzaria {
+        margin-left: 20px;
+        color: white;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .menu {
+        background-color: #ffffff;
+        text-align: center;
+        color: white;
+        font-size: medium;
+        font-weight: bolder;
+        margin: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin: 1%;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #31434A;
+    }
+
+    #salgadodoce {
+        height: 412px;
+    }
+
+    #about {
+        height: 50%;
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .about {
+        background-color: #ffffff;
+        display: flex;
+        /* justify-content: center; */
+        margin: 5%;
+        display: inline-block;
+        width: 30%;
+        padding: 20px;
+        margin-left: 10%;
+    }
+
+    .link-contact {
+        text-decoration: none;
+    }
+
+    .eating {
+        height: 50%;
+        width: 97%;
+        margin: 5px;
+    }
+
+    .text-about {
+        margin-top: 65px;
+        text-align: justify;
+        color: #0F0F0F;
+        font-size: larger;
+    }
+
+    .request {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .request2 {
+        padding: 35px 50px;
+        background-color: #E79B21;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    footer {
+        background-color: #DF2E38;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 1%;
+        
+    }
+
+    .form {
+        width: 40%;
     }
 
     .map {

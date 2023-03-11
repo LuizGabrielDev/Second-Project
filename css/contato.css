@@ -30,3 +30,25 @@ textarea {
     width: 90%;
     margin: 15px;
 }
+
+h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .map {
+        margin: 40px;
+    }    
+}
+
+@media (max-width: 1024px) {
+    .map {
+        margin: 40px;
+    }    
+}
+
+@media (min-width: 1024px) {
+    .map {
+        margin: 70px;
+    }    
+}
