@@ -1,0 +1,32 @@
+form {
+    width: 80%;
+    margin: 10% auto;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #31434A;
+    border-radius: 15px;
+    text-align: left;
+}
+
+form fieldset {
+    border: 0;
+}
+
+form fieldset label {
+    display: block;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+}
+
+input,
+textarea {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+
+iframe {
+    width: 90%;
+    margin: 15px;
+}

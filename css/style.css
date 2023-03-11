@@ -54,7 +54,8 @@ nav ul li a {
     /* justify-content: center; */
     margin: 5%;
     display: inline-block;
-    width: 90%;
+    width: 75%;
+    padding: 20px;
 }
 
 .eating {
