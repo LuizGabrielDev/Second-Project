@@ -1,18 +1,14 @@
 @media (max-width: 480px) {
-
-
-
     body {
         margin: 0;
-        background-color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-
+        background-color: #f2f2f2;
+        font-family: "Roboto", sans-serif;
     }
 
     header {
         padding: 1px;
         margin: 0px;
-        background-color: #DF2E38;
+        background-color: #df2e38;
         height: 105px;
     }
 
@@ -49,7 +45,7 @@
 
     nav ul li a {
         text-decoration: none;
-        color: #31434A;
+        color: #31434a;
     }
 
     .about {
@@ -75,7 +71,7 @@
     .text-about {
         margin: 5px;
         text-align: justify;
-        color: #0F0F0F;
+        color: #0f0f0f;
     }
 
     .request {
@@ -87,33 +83,36 @@
 
     .request2 {
         padding: 20px 30px;
-        background-color: #E79B21;
+        background-color: #e79b21;
         font-weight: bold;
     }
 
     footer {
-        background-color: #DF2E38;
+        background-color: #df2e38;
         text-align: center;
         color: white;
     }
 
     a:hover {
-        color: #DF2E38;
+        color: #df2e38;
     }
 
+    .invalid {
+        border: 2px solid red;
+    }
 }
 
 @media (max-width: 768px) {
     body {
         margin: 0;
-        background-color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
+        background-color: #f2f2f2;
+        font-family: "Roboto", sans-serif;
     }
 
     header {
         padding: 1px;
         margin: 0px;
-        background-color: #DF2E38;
+        background-color: #df2e38;
         height: 105px;
     }
 
@@ -150,7 +149,7 @@
 
     nav ul li a {
         text-decoration: none;
-        color: #31434A;
+        color: #31434a;
     }
 
     .about {
@@ -177,7 +176,7 @@
     .text-about {
         margin: 5px;
         text-align: justify;
-        color: #0F0F0F;
+        color: #0f0f0f;
     }
 
     .request {
@@ -189,12 +188,12 @@
 
     .request2 {
         padding: 20px 30px;
-        background-color: #E79B21;
+        background-color: #e79b21;
         font-weight: bold;
     }
 
     footer {
-        background-color: #DF2E38;
+        background-color: #df2e38;
         text-align: center;
         color: white;
     }
@@ -205,23 +204,25 @@
     }
 
     a:hover {
-        color: #DF2E38;
+        color: #df2e38;
     }
 
+    .invalid {
+        border: 2px solid red;
+    }
 }
 
 @media (max-width: 1024px) {
     body {
         margin: 0;
-        background-color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-
+        background-color: #f2f2f2;
+        font-family: "Roboto", sans-serif;
     }
 
     header {
         padding: 1px;
         margin: 0px;
-        background-color: #DF2E38;
+        background-color: #df2e38;
         height: 105px;
     }
 
@@ -258,7 +259,7 @@
 
     nav ul li a {
         text-decoration: none;
-        color: #31434A;
+        color: #31434a;
     }
 
     .about {
@@ -285,7 +286,7 @@
     .text-about {
         margin: 5px;
         text-align: justify;
-        color: #0F0F0F;
+        color: #0f0f0f;
     }
 
     .request {
@@ -297,12 +298,12 @@
 
     .request2 {
         padding: 20px 30px;
-        background-color: #E79B21;
+        background-color: #e79b21;
         font-weight: bold;
     }
 
     footer {
-        background-color: #DF2E38;
+        background-color: #df2e38;
         text-align: center;
         color: white;
     }
@@ -317,23 +318,25 @@
     }
 
     a:hover {
-        color: #DF2E38;
+        color: #df2e38;
     }
 
+    .invalid {
+        border: 2px solid red;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1499px) {
     body {
         margin: 0;
-        background-color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-
+        background-color: #f2f2f2;
+        font-family: "Roboto", sans-serif;
     }
 
     header {
         padding: 1px;
         margin: 0px;
-        background-color: #DF2E38;
+        background-color: #df2e38;
         height: 105px;
     }
 
@@ -370,7 +373,7 @@
 
     nav ul li a {
         text-decoration: none;
-        color: #31434A;
+        color: #31434a;
     }
 
     #salgadodoce {
@@ -408,7 +411,7 @@
     .text-about {
         margin-top: 65px;
         text-align: justify;
-        color: #0F0F0F;
+        color: #0f0f0f;
         font-size: larger;
     }
 
@@ -421,19 +424,18 @@
 
     .request2 {
         padding: 35px 50px;
-        background-color: #E79B21;
+        background-color: #e79b21;
         font-weight: bold;
         font-size: large;
     }
 
     footer {
-        background-color: #DF2E38;
+        background-color: #df2e38;
         text-align: center;
         color: white;
         padding: 10px;
         text-align: center;
         margin-top: 1%;
-        
     }
 
     .form {
@@ -446,23 +448,25 @@
     }
 
     a:hover {
-        color: #DF2E38;
+        color: #df2e38;
     }
 
+    .invalid {
+        border: 2px solid red;
+    }
 }
 
 @media (min-width: 1500px) {
     body {
         margin: 0;
-        background-color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-
+        background-color: #f2f2f2;
+        font-family: "Roboto", sans-serif;
     }
 
     header {
         padding: 1px;
         margin: 0px;
-        background-color: #DF2E38;
+        background-color: #df2e38;
         height: 105px;
     }
 
@@ -499,7 +503,7 @@
 
     nav ul li a {
         text-decoration: none;
-        color: #31434A;
+        color: #31434a;
     }
 
     #salgadodoce {
@@ -537,7 +541,7 @@
     .text-about {
         margin-top: 65px;
         text-align: justify;
-        color: #0F0F0F;
+        color: #0f0f0f;
         font-size: larger;
     }
 
@@ -550,19 +554,18 @@
 
     .request2 {
         padding: 35px 50px;
-        background-color: #E79B21;
+        background-color: #e79b21;
         font-weight: bold;
         font-size: large;
     }
 
     footer {
-        background-color: #DF2E38;
+        background-color: #df2e38;
         text-align: center;
         color: white;
         padding: 10px;
         text-align: center;
         margin-top: 1%;
-        
     }
 
     .form {
@@ -575,7 +578,10 @@
     }
 
     a:hover {
-        color: #DF2E38;
+        color: #df2e38;
     }
 
+    .invalid {
+        border: 2px solid red;
+    }
 }

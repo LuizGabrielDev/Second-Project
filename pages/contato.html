@@ -1,86 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizzaria Lima</title>
 
-    <title>Pizzaria Lima</title>
+        <link
+            rel="shortcut icon"
+            href="../assets/favicon (1).ico"
+            type="image/x-icon"
+        />
 
-    <link rel="shortcut icon" href="../assets/favicon (1).ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/sabores.css" />
+        <link rel="stylesheet" href="../css/contato.css" />
 
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/sabores.css">
-    <link rel="stylesheet" href="../css/contato.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <body>
+        <header>
+            <div id="container">
+                <a href="../index.html"
+                    ><img id="logo" src="../assets/logopizza.png"
+                /></a>
+                <p class="pizzaria">Pizzaria Lima</p>
+            </div>
+        </header>
 
-</head>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Ínicio</a></li>
+                <li><a href="./sabores.html">Sabores</a></li>
+                <li><a href="./combos.html">Combos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
 
-<body>
-    <header>
-        <div id="container">
-            <a href="../index.html"><img id='logo' src="../assets/logopizza.png"></a>
-            <p class="pizzaria">Pizzaria Lima</p>
-        </div>
-    </header>
+        <main>
+            <form onsubmit="event.preventDefault()" class="form" action="">
+                <fieldset>
+                    <label for="input-name">Nome</label>
+                    <input
+                        type="text"
+                        name="input-nome"
+                        id="input-nome"
+                        required
+                        minlength="2"
+                    />
+                </fieldset>
 
-    <nav>
-        <ul class="menu">
-            <li><a href="../index.html">Ínicio</a></li>
-            <li><a href="./sabores.html">Sabores</a></li>
-            <li><a href="./combos.html">Combos</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
+                <fieldset>
+                    <label for="input-email">Email</label>
+                    <input
+                        type="email"
+                        name="input-email"
+                        id="input-email"
+                        required
+                    />
+                </fieldset>
 
-    <main>
+                <fieldset>
+                    <label for="input-tel">Telefone</label>
+                    <input
+                        type="tel"
+                        name="input-tel"
+                        id="input-tel"
+                        placeholder="(99) 99999-9999"
+                        required
+                        pattern="^\(\d{2}\) \d{5}-\d{4}$"
+                        maxlength="15"
+                    />
+                </fieldset>
 
-        <form class="form" action="">
+                <fieldset>
+                    <label for="input-msg">Mensagem</label>
+                    <textarea
+                        name="input-msg"
+                        id="input-msg"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                </fieldset>
 
-            <fieldset>
-                <label for="input-name">Nome</label>
-                <input type="text" name="input-name" id="input-name">
-            </fieldset>
+                <center>
+                    <input
+                        type="submit"
+                        value="ENVIAR"
+                        class="button"
+                        onclick="enviarFormulario()"
+                    />
+                </center>
+            </form>
 
-            <fieldset>
-                <label for="input-email">Email</label>
-                <input type="email" name="input-email" id="input-email">
-            </fieldset>
+            <h3>
+                Venha nos conhecer, estamos funcionando de terça a domingo à
+                partir das 18hrs!
+            </h3>
 
-            <fieldset>
-                <label for="input-tel">Telefone</label>
-                <input type="tel" name="input-tel" id="input-tel">
-            </fieldset>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.0803182269215!2d-35.952877184789266!3d-8.294805894032189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98b107fda3b03%3A0xb2cbfad9b08425f3!2sComeia!5e0!3m2!1spt-BR!2sbr!4v1678501867699!5m2!1spt-BR!2sbr"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </main>
 
-            <fieldset>
-                <label for="input-msg">Mensagem</label>
-                <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
-            </fieldset>
+        <footer>2023 Ⓒ Desenvolvido por Luiz Gabriel</footer>
 
-            <center>
-                <input type="submit" value="ENVIAR" class="button">
-            </center>
-
-
-        </form>
-
-        <h3 >Venha nos conhecer, estamos funcionando de terça a domingo à partir das 18hrs!</h3>
-
-        <div class="map">
-            <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.0803182269215!2d-35.952877184789266!3d-8.294805894032189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98b107fda3b03%3A0xb2cbfad9b08425f3!2sComeia!5e0!3m2!1spt-BR!2sbr!4v1678501867699!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-    </main>
-
-
-    <footer>2023 Ⓒ Desenvolvido por Luiz Gabriel</footer>
-</body>
-
+        <script src="../scripts/script.js"></script>
+    </body>
 </html>
