@@ -300,6 +300,11 @@
         padding: 20px 30px;
         background-color: #e79b21;
         font-weight: bold;
+        cursor: pointer;
+    }
+
+    .button {
+        cursor: pointer;
     }
 
     footer {
@@ -427,6 +432,11 @@
         background-color: #e79b21;
         font-weight: bold;
         font-size: large;
+        cursor: pointer;
+    }
+
+    .button {
+        cursor: pointer;
     }
 
     footer {
@@ -557,6 +567,11 @@
         background-color: #e79b21;
         font-weight: bold;
         font-size: large;
+        cursor: pointer;
+    }
+
+    .button {
+        cursor: pointer;
     }
 
     footer {
